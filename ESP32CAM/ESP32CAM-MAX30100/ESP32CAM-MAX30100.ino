@@ -67,11 +67,11 @@ int flashLedPin = 4;  // Para indicar el estatus de conexión
 int statusLedPin = 33; // Para ser controlado por MQTT
 long timeNow, timeLast; // Variables de control de tiempo no bloqueante
 int data = 0; // Contador
-int wait = 5000;  // Indica la espera cada 5 segundos para envío de mensajes MQTT
+int wait = 10000;  // Indica la espera cada 5 segundos para envío de mensajes MQTT
 
 //Variables de manejo del sensor
 long timeLast2;//Tracker de tiempo de lecturas del sensor
-int waitMax30100 = 1000;//Tiempo entre lecturas del sensor
+int waitMax30100 = 10000;//Tiempo entre lecturas del sensor
 
 // Inicialización del programa
 void setup() {
